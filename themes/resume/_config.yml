@@ -1,16 +1,17 @@
 cdn:
   # These base libraries cannot be deleted
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
-  vue: https://cdn.jsdelivr.net/npm/vue@2.6/dist/vue.min.js
+  jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.5.0/jquery.min.js
+  vue: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.0/vue.min.js
   # When these CDN resources are deleted, local resources are loaded.
-  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
-  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
-  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
+  # common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
+  # escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
+  # smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
   # css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
   # Optional plug-in: image zoom
   fancybox:
-    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5/dist/jquery.fancybox.min.css
-    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5/dist/jquery.fancybox.min.js
+    css: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+    js: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
+  font: https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.min.css
 
 # robots meta tag
 robots: noindex,nofollow
