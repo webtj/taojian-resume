@@ -52,42 +52,6 @@ download:
 
 ```bash
 npm i hexo-theme-resume
-```
-
-然后删除多余的依赖包（重要），打开 `package.json` 复制并全部替换为以下内容：
-
-```json
-{
-  "name": "hexo-site",
-  "private": true,
-  "hexo": {
-    "version": "5.0.0"
-  },
-  "scripts": {
-    "start": "hexo server",
-    "build": "node pre-deploy.js && hexo clean && hexo generate",
-    "deploy": "npm run build && hexo deploy"
-  },
-  "engines": {
-    "node": ">=8.9.0"
-  },
-  "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-all-minifier": "^0.5.3",
-    "hexo-autonofollow": "^1.0.1",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-fs": "^3.1.0",
-    "hexo-lazyload-image": "^1.0.9",
-    "hexo-offline": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
-  }
-}
-```
-
-然后输入 `npm i` 安装依赖包。
 
 ## <i class="fas fa-user-graduate"></i> 教育背景
 
@@ -121,27 +85,7 @@ npm i hexo-theme-resume
 <btns rounded>
 <a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
   <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
-  心率管家
-</a>
-<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
-  C养老
-</a>
-<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
-  C-Life养老
-</a>
-<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
-  LinkSmart
-</a>
-<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
-  HitFit
-</a>
-<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
-  飞亚达腕能助手
+  xxxx
 </a>
 </btns><br>
 {% endraw %}
@@ -170,33 +114,15 @@ npm i hexo-theme-resume
 
 ### Volantis
 
-#### 2017 ~ 至今，一个简约的卡片式Hexo博客主题
+#### 2017 ~ 至今，xxxxxxxxxxxx
 
-- 完全自由的模块化、易于定制化设计
-- 移动端优化
-- 源码：https://github.com/xaoxuu/hexo-theme-volantis
-- 官网：https://volantis.js.org/
-
-### ProHUD
-
-#### 2019/08 ~ 至今，易于定制、接口简单的HUD库
-
-- 使用Swift5编写。
-- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
-- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
-- 源码：https://github.com/xaoxuu/ProHUD
+- 1
+- 2
+- 3
+- 4
 
 <fancybox>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot04.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot05.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot06.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot07.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
-<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
+<img src='https://mp-0d01685b-3633-4c56-94c6-f3ea1bbccf64.cdn.bspapp.com/VKCEYUGU-0d01685b-3633-4c56-94c6-f3ea1bbccf64/4cdc2b60-574a-4af6-89b5-5fe2e1777bfa.jpeg' />
 </fancybox>
 
 ## <i class="fas fa-phone-alt"></i> 与我联系
